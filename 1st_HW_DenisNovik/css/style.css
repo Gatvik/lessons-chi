@@ -1,0 +1,212 @@
+body {
+    padding: 30px 0;
+}
+
+section:nth-child(even) {
+    background: #F6F6F6;
+}
+
+header {
+    padding: 0 250px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+}
+
+.nav__item {
+    color: #828282;
+    cursor: pointer;
+}
+
+.nav__item-active {
+    color: #070707;
+}
+
+.divider {
+    border: 1px solid #828282;
+    margin: 40px 250px 0 250px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 250px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 250px;
+}
+
+.section__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 0 50px 0;
+}
+
+h1 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.section__header__descr {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.section__header__lang {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+    transform: rotate(-90deg);
+    font-size: 20px;
+    padding-bottom: 31px;
+}
+
+.lang__button {
+    color: #828282;
+}
+
+.lang__button-active {
+    color: #000000;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 34px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section__center {
+    align-items: center;
+    padding: 100px 250px;
+}
+
+.section__text {
+    margin: 20px 0;
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+}
+
+.section__about__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 320px;
+}
+
+.icons {
+    display: flex;
+}
+.icon__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+    width: 90px;
+    height: 90px;
+}
+
+.icon__name {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.icon__stars {
+    display: flex;
+}
+
+.star {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+
+.portfolio__card {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio__card__image {
+    width: 1000px;
+    height: 500px;
+}
+
+.portfolio__card__desc {
+    margin: 50px 0;
+    font-size: 18px;
+    font-family: 'Catamaran', sans-serif;
+    text-decoration: underline;
+}
+
+.contacts__desc {
+    font-size: 18px;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+}
+
+.btn__open-modal {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background-color: #000000;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 30px 0 100px 0;
+}
+
+.contacts__icons {
+    display: flex;
+    justify-content: space-between;
+    min-width: 350px;
+}
+
+.contacts__icon {
+    width: 40px;
+    height: 40px;
+}
+
+.contacts__bye {
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    color: #828282;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.linkedin {
+    background: url('../img/contacts/linkedin.png');
+}
+
+.instagram {
+    background: url('../img/contacts/instagram.png');
+}
+
+.behance {
+    background: url('../img/contacts/behance.png');
+}
+
+.dribble {
+    background: url('../img/contacts/dribble.png');
+}
