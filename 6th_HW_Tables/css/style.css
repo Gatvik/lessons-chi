@@ -1,0 +1,74 @@
+#wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.subscriptions {
+    position: relative;
+    background: #ffffff;
+    padding: 100px 200px;
+    color: #0C1417;
+}
+
+.subscriptions .img-wrapper {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.subscriptions h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.13;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.subscriptions table td {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.subscriptions table td,
+.subscriptions table th {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.subscriptions table th {
+    border-bottom: 1px solid rgba(12, 20, 23, 0.5);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+.subscriptions table th:first-child {
+    font-weight: 500;
+}
+
+.subscriptions table th:last-child {
+    color: #F7931E;
+}
+
+.subscriptions table td:nth-child(1),
+.subscriptions table th:first-child {
+    text-align: left;
+}
+
+.subscriptions table td:nth-child(1) {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.subscriptions table tr:nth-child(2) td:first-child {
+    color: #F7931E;
+}
+
+.subscriptions table tr:nth-child(2) td:last-child {
+    font-weight: 600;
+}
