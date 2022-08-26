@@ -1,0 +1,79 @@
+.trainings-cards {
+
+  .cards-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .card {
+    max-width: 300px;
+    padding: 30px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.08);
+
+    h4 {
+      margin-bottom: 10px;
+      justify-self: flex-start;
+    }
+
+    i {
+      font-size: 34px;
+      margin-bottom: 15px;
+    }
+
+    .card-time,
+    .card-trainings_count {
+      font-size: 15px;
+      line-height: 1.33;
+      color: rgba($base-text-color-2, 0.5);
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .card-price {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 1.25;
+      color: $base-text-color-2;
+    }
+
+    button {
+      border: 1px solid $base-text-color-1;
+      background: #FFFFFF;
+      padding: 15px 70px;
+      transform: skewX(-15deg);
+      color: $base-text-color-1;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.25;
+
+      &:hover {
+        color: #FFFFFF;
+        background: $base-text-color-1;
+      }
+    }
+
+    &:hover {
+      h4 {
+        color: $base-text-color-1;
+      }
+    }
+  }
+
+  @include media("<936px") {
+    .cards-row {
+      flex-direction: column;
+      align-items: center;
+
+      .card {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
