@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Project Title</title>
+    <link media="all" rel="stylesheet" href="css/main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat:wght@300;400&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+    <main id="main">
+        <section class="checkout-section">
+            <div class="container">
+                <h1>CHECKOUT</h1>
+                <span class="route">Main <i class="icon-Arrow1"></i> Shopping card</span>
+                <div class="columns">
+                    <div class="column">
+                        <p class="details">DETAILS</p>
+                        <div class="form-wrapper">
+                            <form action="#">
+                                <input placeholder="First name*" type="text">
+                                <input placeholder="Last name*" type="text">
+                                <input placeholder="E-mail*" type="text">
+                                <input placeholder="Phone" type="text">
+                                <input placeholder="Address*" type="text">
+                                <input placeholder="City*" type="text">
+<!--                                <input placeholder="Mobile number*" type="text">-->
+                                <input placeholder="Comments" type="text">
+                                <p class="required">* Required fields</p>
+                                <div class="row">
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" name="checkbox" id="agree">
+                                        <label for="agree"></label>
+                                    </div>
+                                    <p class="text">By continuing to Checkout, you are agreeing to our <a href="#">Terms
+                                        of Use</a> and
+                                        <a href="#">Privacy Policy</a>.</p>
+                                    <div class="next-step-circle">
+                                        <p class="text">NEXT STEP</p>
+                                        <img src="img/Arrow2.svg" alt="#">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+<!--                    <div class="space"></div>-->
+                    <div class="column">
+                        <form action="#">
+                            <div class="cards">
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img src="img/soap2.png" alt="#">
+                                    </div>
+                                    <div class="right-side">
+                                        <div class="title">
+                                            <span class="header">Soap “Seacaost”</span>
+                                            <i class="icon-cross"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="amount">
+                                                <button class="decrease">-</button>
+                                                <input value="111" disabled type="number">
+                                                <button class="increase">+</button>
+                                            </span>
+                                            <span class="total">5,20$</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img src="img/soap1.png" alt="#">
+                                    </div>
+                                    <div class="right-side">
+                                        <div class="title">
+                                            <span class="header">Box “Christmas”</span>
+                                            <i class="icon-cross"></i>
+                                        </div>
+                                        <div class="price">
+                                            <span class="amount">
+                                                <button class="decrease">-</button>
+                                                <input value="111" disabled type="number">
+                                                <button class="increase">+</button>
+                                            </span>
+                                            <span class="total">26$</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="options">
+                                <div class="option">
+                                    <div class="option-row">
+                                        <div class="option-container">
+                                            <div class="custom-radio">
+                                                <input type="radio" name="radio" id="1">
+                                                <label for="1"></label>
+                                            </div>
+                                            <div class="text">
+                                                <p class="name">Ship</p>
+                                                <p class="description">
+                                                    In stock and ready to ship Shipping: Standard shipping Arrives: Fri, 9/24 – Tue, 9/28
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="price">5$</p>
+                                    </div>
+
+                                    <div class="option-row">
+                                        <div class="option-container">
+                                            <div class="custom-radio">
+                                                <input type="radio" name="radio" id="2">
+                                                <label for="2"></label>
+                                            </div>
+                                            <div class="text">
+                                                <p class="name">Pickup</p>
+                                                <p class="description">
+                                                    <a href="#">Select location</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="price"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="total">
+                                <p class="text">Subtotal:</p>
+                                <p class="price">36,20$</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
