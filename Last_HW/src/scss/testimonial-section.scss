@@ -1,0 +1,94 @@
+.testimonial-section {
+  margin: 0 0 240px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    margin: 0 0 20px;
+  }
+
+  .logo-list {
+    margin: 0 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      margin: 0 90px 0 0;
+    }
+  }
+
+  .quote-block {
+    display: flex;
+
+    .img-block {
+      max-width: 615px;
+    }
+
+    blockquote {
+      background: $light-blue-2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .info {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 0 125px;
+
+        .info-elem {
+          font-weight: 700;
+          line-height: 1.5;
+          text-align: center;
+
+          .number {
+            font-size: 70px;
+            color: $light-blue;
+            display: inline-block;
+          }
+
+          .text {
+            font-size: 40px;
+            color: $light-blue;
+            display: inline-block;
+          }
+        }
+      }
+
+      .text-info {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 1.5;
+        max-width: 750px;
+
+        .text {
+          color: $green;
+          margin: 0 0 60px;
+          position: relative;
+
+          &:before {
+            content: '';
+            position: absolute;
+            display: block;
+            left: -40px;
+            top: -80px;
+            width: 100px;
+            height: 100px;
+            background: no-repeat url("../img/quotes.svg");
+          }
+        }
+
+        .author {
+          align-self: flex-start;
+          color: $light-blue;
+          font-style: italic;
+        }
+      }
+
+    }
+  }
+}

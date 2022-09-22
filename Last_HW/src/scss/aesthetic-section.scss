@@ -1,0 +1,29 @@
+.aesthetic-section {
+  margin: 0 0 120px;
+  .two-rows {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    .row:first-child {
+      max-width: 650px;
+    }
+  }
+
+  p.header {
+    max-width: 480px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    color: $light-black;
+    margin: 0 0 50px
+  }
+
+  p.text {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.5;
+    color: $green;
+    max-width: 700px;
+  }
+}

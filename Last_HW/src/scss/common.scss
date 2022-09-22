@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  font-family: Poppins, sans-serif;
+}
+
+#wrapper {
+  position: relative;
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 1582px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+
+}
+
+//Headers
+
+h2, .h2 {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 1.5;
+  color: $light-black;
+}

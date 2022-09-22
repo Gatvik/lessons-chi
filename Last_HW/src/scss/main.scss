@@ -1,0 +1,22 @@
+$breakpoints: (
+  "xs-phone": 320px,
+  "phone": 480px,
+  "tablet": 768px,
+  "desktop": 1024px,
+  "widescreen": 1200px,
+);
+
+@import "variables";
+@import "reset";
+
+@import "header";
+@import "top-section";
+@import "how-works-section";
+@import "aesthetic-section";
+@import "projects-section";
+@import "testimonial-section";
+@import "contact-section";
+
+@import "common";
+
+

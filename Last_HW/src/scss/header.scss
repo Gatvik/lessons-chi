@@ -1,0 +1,63 @@
+#header {
+  margin-top: 70px;
+  margin-bottom: 125px;
+
+  #nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    .logo a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-weight: 800;
+      font-size: 35px;
+      line-height: 1.5;
+      color: $light-blue;
+
+      img {
+        width: 37px;
+        height: 45px;
+        margin-right: 14px;
+      }
+    }
+
+    ul {
+      display: flex;
+      padding-top: 10px;
+
+      li a {
+        margin: 0 43px;
+        font-weight: 700;
+        color: $gray;
+        line-height: 1.5;
+        font-size: 25px;
+        transition: 0.3s all;
+
+        &:hover {
+          color: $light-blue;
+        }
+      }
+    }
+
+    .sign-up-btn {
+      min-width: 271px;
+      padding: 21px 0;
+      vertical-align: center;
+      text-align: center;
+      background: $light-blue;
+      border-radius: 15px;
+
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 1.5;
+      color: $white;
+    }
+  }
+}
+
+
+
